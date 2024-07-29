@@ -1,0 +1,572 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header_section .container-fluid {
+  padding: 0;
+}
+.header_section .container-fluid .heading_contacts {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px 0px 50px;
+  border-bottom: 1px solid;
+}
+.header_section .container-fluid .heading_contacts .contact_holder {
+  display: flex;
+  width: 80%;
+}
+.header_section .container-fluid .heading_contacts .contact_holder p {
+  border-right: 1px solid;
+  border-left: 1px solid;
+  margin-right: 12px;
+  margin-left: 12px;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+.header_section .container-fluid .heading_contacts .contact_holder p:nth-child(3) {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.header_section .container-fluid .heading_contacts .contact_holder p:nth-child(4) {
+  border-right: none;
+  padding-right: 25px;
+}
+.header_section .container-fluid .heading_contacts .socials_holder {
+  width: 25%;
+  text-align: end;
+  letter-spacing: 18px;
+}
+.header_section .container-fluid .navbar-expand-lg {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.header_section .container-fluid .navbar-expand-lg .container-fluid {
+  justify-content: space-between;
+  padding: 20px 50px 20px 50px;
+  border-bottom: 1px solid;
+}
+.header_section .container-fluid .navbar-expand-lg .container-fluid .nav-logo {
+  transition: all 0.4s ease;
+}
+.header_section .container-fluid .navbar-expand-lg .container-fluid .nav-logo:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.header_section .container-fluid .navbar-expand-lg .container-fluid .nav-menulist .nav-details .mb-lg-0 {
+  gap: 20px;
+  padding-right: 20px;
+}
+.header_section .container-fluid .navbar-expand-lg .container-fluid .nav-menulist .nav-details .mb-lg-0 .nav-item {
+  transition: all 0.6s ease;
+}
+.header_section .container-fluid .navbar-expand-lg .container-fluid .nav-menulist .nav-details .mb-lg-0 .nav-item:hover {
+  border-bottom: 1px solid #000000;
+  cursor: pointer;
+}
+.header_section .container-fluid .navbar-expand-lg .container-fluid .nav-menulist .d-flex .btn-dark {
+  background-color: #000000;
+  border: 1px solid #ffffff;
+  transition: all 0.4s ease;
+}
+.header_section .container-fluid .navbar-expand-lg .container-fluid .nav-menulist .d-flex .btn-dark:hover {
+  background-color: #2a9d8f;
+  color: #000000;
+  font-weight: bold;
+}
+
+.hero_section .container-fluid {
+  padding: 0px 70px;
+  background-image: url("../img/hero_sectionProject3.png");
+  background-size: cover;
+}
+.hero_section .container-fluid .hero_heading {
+  padding: 286px 0px;
+  max-width: 560px;
+}
+.hero_section .container-fluid .hero_heading .hero_header h2 {
+  font-size: 56px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.hero_section .container-fluid .hero_heading .hero_header p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 24px;
+  color: #ffffff;
+  margin-bottom: 52px;
+}
+.hero_section .container-fluid .hero_heading button {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 0.2s ease;
+}
+.hero_section .container-fluid .hero_heading button:hover {
+  background-color: #2a9d8f;
+  color: #000000;
+}
+
+.about_section .container-fulid {
+  padding: 145px 70px;
+}
+.about_section .container-fulid .row .heading h2 {
+  font-size: 48px;
+  font-weight: 700;
+  padding-left: 10px;
+  line-height: 57.6px;
+}
+.about_section .container-fulid .row .heading .first-paragraph {
+  margin: 32px 0px;
+}
+.about_section .container-fulid .row .heading .first-paragraph h4 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.about_section .container-fulid .row .heading .first-paragraph p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.about_section .container-fulid .row .heading button {
+  font-size: 16px;
+  font-weight: 400;
+}
+.about_section .container-fulid .row .heading button:nth-child(1) {
+  border: 1px solid black;
+  transition: all 0.2s ease;
+}
+.about_section .container-fulid .row .heading button:nth-child(1):hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+.about_section .container-fulid .row img {
+  height: 100%;
+  width: 100%;
+  margin-left: 110px;
+}
+
+.mission_section {
+  background-color: #F7F7F7;
+  padding: 112px 70px;
+}
+.mission_section .container-fluid img {
+  height: 100%;
+  width: 100%;
+}
+.mission_section .container-fluid .mission-heading {
+  padding: 100px 0px 100px 88px;
+}
+.mission_section .container-fluid .mission-heading h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.mission_section .container-fluid .mission-heading p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.model_section {
+  padding: 80px 0px;
+}
+.model_section .container .model_body h5 {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+.model_section .container .model_body h3 {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin: 24px 0px;
+}
+.model_section .container .model_body .model_img .model-first-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  margin-bottom: 24px;
+}
+.model_section .container .model_body .model_img .model_second_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}
+
+.service_section {
+  background-color: #F7F7F7;
+  padding: 112px 70px;
+}
+.service_section .container-fluid .service_heading {
+  text-align: center;
+}
+.service_section .container-fluid .service_heading h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.service_section .container-fluid .service_heading p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 80px;
+}
+.service_section .container-fluid .first_card {
+  margin-bottom: 40px;
+}
+.service_section .container-fluid .first_card div {
+  border: none;
+  background-color: transparent;
+}
+.service_section .container-fluid .first_card div h5 {
+  color: #ffffff;
+}
+.service_section .container-fluid .first_card div .card-img-overlay {
+  display: flex;
+  align-items: flex-end;
+}
+
+.contact-section .container-fluid {
+  padding: 112px 70px;
+}
+.contact-section .container-fluid .contact-header {
+  text-align: center;
+}
+.contact-section .container-fluid .contact-header h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.contact-section .container-fluid .contact-header p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 80px;
+}
+.contact-section .container-fluid .contact-detail {
+  display: flex;
+  justify-content: space-between;
+  gap: 19px;
+}
+.contact-section .container-fluid .contact-detail .email svg {
+  font-size: 30px;
+  color: #000000;
+  margin-bottom: 24px;
+}
+.contact-section .container-fluid .contact-detail .email a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+.contact-section .container-fluid .contact-detail .email h6 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.contact-section .container-fluid .contact-detail .email p {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.enroll_form .container-fluid {
+  background-color: #F7F7F7;
+  padding: 100px 70px;
+}
+.enroll_form .container-fluid .from_section {
+  padding-right: 50px;
+}
+.enroll_form .container-fluid .from_section .about_heading p {
+  font-size: 18px;
+  margin-bottom: 32px;
+  font-weight: 400;
+}
+.enroll_form .container-fluid .from_section .about_heading p:nth-child(1) {
+  font-size: 16px;
+}
+.enroll_form .container-fluid .from_section .about_heading h1 {
+  font-size: 48px;
+}
+.enroll_form .container-fluid .from_section .about_heading .form-check {
+  margin-left: 12px;
+}
+.enroll_form .container-fluid .from_section .form .form-check {
+  margin-left: 12px;
+}
+.enroll_form .container-fluid .from_section .form .form-check .form-check-input {
+  border: 1px solid black;
+}
+.enroll_form .container-fluid .from_section .form button {
+  margin-top: 24px;
+  background-color: black;
+  transition: all 0.2s ease;
+}
+.enroll_form .container-fluid .from_section .form button:hover {
+  background-color: #2a9d8f;
+  color: #000000;
+}
+.enroll_form .container-fluid .about_image img {
+  width: 90%;
+  min-height: 700px;
+}
+
+.Team_section .container-fluid {
+  padding: 90px 70px;
+}
+.Team_section .container-fluid .cards_headings h6 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.Team_section .container-fluid .cards_headings h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.Team_section .container-fluid .cards_headings p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.Team_section .container-fluid .card {
+  border: none;
+}
+.Team_section .container-fluid .card .card-body {
+  text-align: center;
+}
+.Team_section .container-fluid .card .card-body .icons a {
+  margin: 0px 7px;
+  color: black;
+}
+
+.testimonial-section {
+  background-color: #F7F7F7;
+}
+.testimonial-section .container-fluid {
+  padding: 112px 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 80px;
+}
+.testimonial-section .container-fluid .heading {
+  text-align: center;
+}
+.testimonial-section .container-fluid .heading h2 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.testimonial-section .container-fluid .heading p {
+  font-size: 18px;
+}
+.testimonial-section .container-fluid .cards {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+.testimonial-section .container-fluid .cards .card {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 32px;
+}
+.testimonial-section .container-fluid .cards .card img {
+  width: 120px;
+  height: 48px;
+}
+.testimonial-section .container-fluid .cards .card .content p {
+  font-size: 18px;
+  line-height: 27px;
+  padding-bottom: 24px;
+}
+.testimonial-section .container-fluid .cards .card .content a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+}
+.testimonial-section .container-fluid .cards .card .content a:hover {
+  color: lightblue;
+}
+.testimonial-section .container-fluid .cards .card .content a span {
+  padding-left: 8px;
+}
+.testimonial-section .container-fluid .cards .card .content .review {
+  display: flex;
+  gap: 20px;
+}
+.testimonial-section .container-fluid .cards .card .content .review img {
+  width: 56px;
+  height: 56px;
+  cursor: pointer;
+  transition: all 0.7s ease;
+}
+.testimonial-section .container-fluid .cards .card .content .review img:hover {
+  transform: scale(1.1);
+}
+.testimonial-section .container-fluid .cards .card .content .review .review-text h6 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.testimonial-section .container-fluid .cards .card .content .review .review-text p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.faqs-section .container {
+  text-align: -webkit-center;
+  padding: 100px 70px;
+}
+.faqs-section .container .faqs-main {
+  max-width: 750px;
+  text-align: center;
+}
+.faqs-section .container .faqs-main .faqs-heading {
+  text-align: center;
+}
+.faqs-section .container .faqs-main .faqs-heading h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.faqs-section .container .faqs-main .faqs-heading p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 24px;
+}
+.faqs-section .container .faqs-main .accordion-section {
+  margin: 80px 0px;
+}
+.faqs-section .container .faqs-main .accordion-section .accordion-flush {
+  border: 1px solid black;
+}
+.faqs-section .container .faqs-main .accordion-section .accordion-flush button {
+  font-size: 18px;
+  font-weight: 700;
+}
+.faqs-section .container .faqs-main .faqs-contact h4 {
+  font-size: 32px;
+  font-weight: 700;
+}
+.faqs-section .container .faqs-main .faqs-contact p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+.faqs-section .container .faqs-main .faqs-contact button {
+  border: 1px solid black;
+}
+
+.Specialist-section {
+  padding: 80px 0px;
+  background-color: #F7F7F7;
+}
+.Specialist-section .container {
+  text-align: center;
+  max-width: 56%;
+}
+.Specialist-section .container .Specialist-contact h6 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.Specialist-section .container .Specialist-contact h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.Specialist-section .container .Specialist-contact p {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 24px 0px;
+}
+.Specialist-section .container .Specialist-contact button:nth-child(1) {
+  border: 1px solid black;
+}
+.Specialist-section .container .Specialist-contact button:nth-child(1):hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.footer_top_section {
+  border-bottom: 1px solid black;
+}
+.footer_top_section .container-fluid {
+  padding: 100px 70px;
+}
+.footer_top_section .container-fluid .first-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_top_section .container-fluid .first-footer .service nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.footer_top_section .container-fluid .first-footer .service nav li {
+  list-style: none;
+}
+.footer_top_section .container-fluid .first-footer .service nav li a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  border-bottom: transparent;
+}
+.footer_top_section .container-fluid .first-footer .service nav li a:hover {
+  border-bottom: 1px solid #000000;
+}
+.footer_top_section .container-fluid .first-footer .icons a {
+  color: #000000;
+  margin: 0px 7px;
+}
+.footer_top_section .container-fluid .first-footer .icons a :nth-child(1) {
+  transition: all 0.4s ease;
+}
+.footer_top_section .container-fluid .first-footer .icons a :nth-child(1):hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+.footer_top_section .container-fluid .first-footer .icons a :nth-child(2) {
+  transition: all 0.4s ease;
+}
+.footer_top_section .container-fluid .first-footer .icons a :nth-child(2):hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+.footer_top_section .container-fluid .first-footer .icons a :nth-child(3) {
+  transition: all 0.4s ease;
+}
+.footer_top_section .container-fluid .first-footer .icons a :nth-child(3):hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+.footer_top_section .container-fluid .first-footer .icons a :nth-child(4) {
+  transition: all 0.4s ease;
+}
+.footer_top_section .container-fluid .first-footer .icons a :nth-child(4):hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.footer-section .second-footer {
+  padding-top: 40px;
+}
+.footer-section .second-footer .policy {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.footer-section .second-footer .policy a {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+}/*# sourceMappingURL=style.css.map */
